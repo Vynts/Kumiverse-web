@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
-  output: 'export', // Mengaktifkan export statis ke folder /out
+  output: "export",
   images: {
-    unoptimized: true, // GitHub Pages tidak mendukung optimasi gambar default Next.js
+    unoptimized: true,
   },
+  
+  basePath: process.env.NODE_ENV === "production" ? "/Kumiverse-web" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/Kumiverse-web/" : "",
 };
 
 export default nextConfig;
