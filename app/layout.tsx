@@ -12,9 +12,51 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// Update bagian metadata di sini
 export const metadata: Metadata = {
-  title: "Kumiverse",
-  description: "Kumiverse is a web application that allows users to explore and interact with a virtual universe. It provides a platform for discovering new worlds, connecting with other users, and sharing experiences.",
+  title: "Kumiverse Hub - Official Community & Minecraft Server",
+  description:
+    "Selamat datang di pusat komunitas Kumiverse. Tempat berkumpulnya para gamers dan kreator. Jelajahi server Minecraft eksklusif kami dan bergabunglah di Discord!",
+  keywords: [
+    "Kumiverse",
+    "Minecraft Server",
+    "Discord Indonesia",
+    "Gaming Community",
+  ],
+
+  // Memunculkan pratinjau saat link dikirim di Discord / WhatsApp
+  openGraph: {
+    title: "Kumiverse Hub",
+    description:
+      "Tempat hangout santai, mabar kompetitif, hingga membangun peradaban di server Minecraft eksklusif kami.",
+    url: "https://web.kumiverse.my.id", // Ganti dengan domain website kamu nanti
+    siteName: "Kumiverse",
+    images: [
+      {
+        url: "/images/og-image.png", // Taruh foto banner (1200x630px) di public/images/og-image.png
+        width: 1200,
+        height: 630,
+        alt: "Kumiverse Community Preview Banner",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+
+  // Memunculkan pratinjau di Twitter / X
+  twitter: {
+    card: "summary_large_image",
+    title: "Kumiverse Hub",
+    description:
+      "Jelajahi server Minecraft eksklusif kami dan bergabunglah dalam keseruan di Discord!",
+    images: ["/images/og-image.png"],
+  },
+
+  // Icon kecil di tab browser
+  icons: {
+    icon: "/favicon.ico", // Taruh file favicon.ico di folder public/
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
