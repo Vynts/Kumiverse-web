@@ -33,8 +33,8 @@ Teknologi utama yang digunakan dalam pengembangan platform portal ini meliputi:
 
 * **Framework:** Next.js (React)
 * **Styling & UI:** Tailwind CSS
-* **Data Fetching:** Native Fetch API / Axios (Mengambil data status server Minecraft secara langsung dari API publik)
-* **Deployment:** Vercel / Node.js Server Environment
+* **Data Fetching:** Native Fetch API (Mengambil data status server Minecraft secara langsung dari API publik)
+* **Deployment:** Github Actions
 
 ---
 
@@ -51,5 +51,6 @@ Sebelum menjalankan proyek di lingkungan lokal untuk modifikasi, pastikan perang
 
 ### 1. Klon Repositori
 ```bash
-git clone [https://github.com/](https://github.com/)[username]/kumiverse-web.git
+git clone https://github.com/vynts/kumiverse-web.git
 cd kumiverse-web
+```
