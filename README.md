@@ -1,3 +1,6 @@
+![Kumiverse Dashboard](kumiverse.png)
+
+
 # Kumiverse Web Portal
 
 Kumiverse Web adalah platform portal resmi berbasis web untuk komunitas Kumiverse. Platform ini berfungsi sebagai pusat informasi, landing page komunitas, serta menghubungkan anggota dengan ekosistem utama Kumiverse, termasuk Komunitas Discord dan Server Minecraft.
